@@ -29,7 +29,7 @@ PERLP = jackdiff mkpretty
 
 PROGS2 = rexpfit.r  wtjack.pl 
 
-CC = cc
+CC ?= cc
 
 all: $(NLIB) $(PROGS) $(PROGS3) 
 
